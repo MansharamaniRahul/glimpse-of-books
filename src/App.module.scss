@@ -1,51 +1,33 @@
 @import "./styles/global.scss";
 
-
-
 .App {
-
-text-align: left;
-
+  text-align: left;
 }
-
-
 
 .AppFileLoader {
+  position: absolute;
 
-position: absolute;
+  left: 71px;
 
-left: 71px;
-
-top: 78px;
-
+  top: 78px;
 }
-
-
 
 .AppBackgroundSidebar {
+  position: fixed;
 
-position: fixed;
+  z-index: -1000;
 
-z-index: -1000;
+  width: $sideBarWidth;
 
-width: $sideBarWidth;
+  background: #d7d7d7;
 
-background: #d7d7d7;
+  top: 0;
 
-top: 0;
-
-bottom: 0;
-
+  bottom: 0;
 }
 
-
-
 .AppXAxis {
+  margin: -30px 0 -44px 340px;
 
-margin: -30px
-0 -44px 
-340px;
-
-height: 70px;
-
+  height: 70px;
 }

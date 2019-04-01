@@ -1,96 +1,68 @@
 .book {
+  position: relative;
 
-    position: relative;
-    
-    float: left;
-    
-    width: 85%;
-    
-    height: 100%;
-    
-    background: #fefefe;
-    
-    padding: 1%;
-    
-    margin: 2%;
-    
-    border-radius: 
-    15px;
-    
-    box-shadow: 1px
-    3px lightgrey;
-    
-    cursor: pointer;
-    
-    font-family: 
-    Arial, Helvetica, 
-    sans-serif;
-    
-    }
-    
-    
-    
-    .imgContainer {
-    
-    float: left;
-    
-    width: 10%;
-    
-    height: 100%;
-    
-    }
-    
-    
-    
-    .container {
-    
-    float: left;
-    
-    width: 20%;
-    
-    height: 100%;
-    
-    word-wrap: break-word;
-    
-    padding-left: 
-    3%;
-    
-    }
-    
-    .titleContainer {
-    
-    float: left;
-    
-    width: 25%;
-    
-    height: 100%;
-    
-    word-wrap: break-word;
-    
-    }
-    
-    
-    
-    .book:hover {
-    
-    background: #eceff3;
-    /* make this whatever you want */
-    
-    }
-    
-    .img {
-    
-    width: 30%
-    !important;
-    
-    }
-    
-    
-    
-    .bookDetails {
-    
-    float: left;
-    
-    position: relative;
-    
-    }
+  float: left;
+
+  width: 85%;
+
+  height: 100%;
+
+  background: #fefefe;
+
+  padding: 1%;
+
+  margin: 2%;
+
+  border-radius: 15px;
+
+  box-shadow: 1px 3px lightgrey;
+
+  cursor: pointer;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgContainer {
+  float: left;
+
+  width: 10%;
+
+  height: 100%;
+}
+
+.container {
+  float: left;
+
+  width: 20%;
+
+  height: 100%;
+
+  word-wrap: break-word;
+
+  padding-left: 3%;
+}
+
+.titleContainer {
+  float: left;
+
+  width: 25%;
+
+  height: 100%;
+
+  word-wrap: break-word;
+}
+
+.book:hover {
+  background: #eceff3;
+  /* make this whatever you want */
+}
+
+.img {
+  width: 30% !important;
+}
+
+.bookDetails {
+  float: left;
+
+  position: relative;
+}

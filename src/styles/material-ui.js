@@ -1,21 +1,21 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme } from "@material-ui/core/styles";
 
 const colors = {
-	primary: {
-		main: '#0271C5'
-	},
+  primary: {
+    main: "#0271C5"
+  },
 
-	secondary: {
-		main: '#fff'
-	},
+  secondary: {
+    main: "#fff"
+  },
 
-	mainNavText: '#333333'
+  mainNavText: "#333333"
 };
 
 export default createMuiTheme({
-	typography: {
-		useNextVariants: true
-	},
+  typography: {
+    useNextVariants: true
+  },
 
-	palette: colors
+  palette: colors
 });

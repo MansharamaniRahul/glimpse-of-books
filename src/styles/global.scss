@@ -1,25 +1,15 @@
-
-$sideBarWidth: 
-305px;
-
-
+$sideBarWidth: 305px;
 
 .twoColumnWrapper {
+  display: flex;
 
-display: flex;
-
-width: 100%;
-
+  width: 100%;
 }
 
 .twoColumnLeft {
-
-width: 320px;
-
+  width: 320px;
 }
 
 .twoColumnRight {
-
-flex: 1;
-
+  flex: 1;
 }

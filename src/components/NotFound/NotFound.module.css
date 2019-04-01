@@ -1,17 +1,13 @@
-
 .PageNotFoundMain {
+  text-align: center;
 
-    text-align: center;
-    
-    margin-top: 15%
-    
-    }
-    
-    
-    
-    .PageNotFoundTitle{ 
-    font-size: 30px; }
-    
-    .PageNotFoundHomeLink{ 
-    font-size: 20px; }
-        
+  margin-top: 15%;
+}
+
+.PageNotFoundTitle {
+  font-size: 30px;
+}
+
+.PageNotFoundHomeLink {
+  font-size: 20px;
+}
