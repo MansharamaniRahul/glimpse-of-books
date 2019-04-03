@@ -96,9 +96,9 @@ class BooksStore {
     this.selectedBookDesc = JSON.parse(data);
   };
 
-  getSelectedBookDesc = () => {
-    return this.selectedBookDesc;
-  };
+  // getSelectedBookDesc = () => {
+  //   return this.selectedBookDesc;
+  // };
 
   setLoader = () => {
     this.showLoader = !this.showLoader;

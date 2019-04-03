@@ -39,9 +39,7 @@ class BooksList extends Component {
   render() {
     const {
       id,
-
       bookTitle,
-
       imageURL,
 
       imageURLSmall,
